@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_bar"
+        android:layout_weight="1">
+        
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_margin="10dp"
+           android:background="@drawable/top100"/> 
+        
+    </RelativeLayout>
+	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="75"
+        android:background="@drawable/math_friendzy" />
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="right"
+	    android:layout_marginRight="10dp"
+	    android:layout_weight="5"
+	    android:text="The Game of Math!"
+	    android:textColor="#000000"
+	    android:textSize="@dimen/loading_text_size"
+	    android:textStyle="bold" />
+
+	<Button
+	    android:id="@+id/btn_learning_center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_weight="5"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:background="@drawable/learning_cnt" />
+ 
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+        android:layout_weight="5"
+        android:background="@drawable/single_friendzy" />
+ 
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+        android:background="@drawable/best_5" />
+ 
+	<Button
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_weight="5"
+	    android:background="@drawable/add" />
+	
+</LinearLayout>
